@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "devCommand": null,
+  "routes": [
+    {
+      "src": "/api/webhook",
+      "dest": "/api/webhook.js"
+    }
+  ]
+}
