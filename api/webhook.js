@@ -9,8 +9,8 @@ export const config = {
 const FALLBACK_MESSAGE =
   "現在確認処理が混み合っています。時間をおいてもう一度お試しください。";
 
-const FOLLOW_MESSAGE =
-  "こんにちは。補助金の候補を絞るために、まず3点だけ教えてください。\n\n1. 園の所在地（都道府県・市区町村）\n2. 認可 / 認可外 / 小規模保育などの施設類型\n3. 今回知りたい内容\n   例：\n   ・使える補助金を知りたい\n   ・処遇改善を確認したい\n   ・ICT導入補助を知りたい\n   ・施設改修の補助を知りたい\n\n分かる範囲で大丈夫です。";
+  const FOLLOW_MESSAGE =
+  "はじめまして！園内ピアノ教室の公式LINEアカウントです。\n\nレッスンに関するお問い合わせ、欠席連絡、体験申込などはこちらからお気軽にメッセージをお送りください。\n\n株式会社ストレイン";
 
 function getRawBody(req) {
   return new Promise((resolve, reject) => {
