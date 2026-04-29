@@ -31,3 +31,5 @@ build/
 # local tool settings
 .claude/
 .vercel/
+.vercel
+.env*.local
